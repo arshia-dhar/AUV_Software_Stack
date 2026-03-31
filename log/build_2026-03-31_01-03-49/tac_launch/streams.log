@@ -1,0 +1,20 @@
+[0.866s] Invoking command in '/home/arshia/auv_tac/src/tac_launch': PYTHONPATH=/home/arshia/auv_tac/build/tac_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/tac_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tac_launch build --build-base /home/arshia/auv_tac/build/tac_launch/build install --record /home/arshia/auv_tac/build/tac_launch/install.log --single-version-externally-managed install_data
+[1.055s] running egg_info
+[1.056s] writing ../../build/tac_launch/tac_launch.egg-info/PKG-INFO
+[1.056s] writing dependency_links to ../../build/tac_launch/tac_launch.egg-info/dependency_links.txt
+[1.056s] writing entry points to ../../build/tac_launch/tac_launch.egg-info/entry_points.txt
+[1.056s] writing requirements to ../../build/tac_launch/tac_launch.egg-info/requires.txt
+[1.056s] writing top-level names to ../../build/tac_launch/tac_launch.egg-info/top_level.txt
+[1.057s] reading manifest file '../../build/tac_launch/tac_launch.egg-info/SOURCES.txt'
+[1.058s] writing manifest file '../../build/tac_launch/tac_launch.egg-info/SOURCES.txt'
+[1.058s] running build
+[1.058s] running build_py
+[1.058s] running install
+[1.059s] running install_lib
+[1.059s] running install_data
+[1.060s] running install_egg_info
+[1.061s] removing '/home/arshia/auv_tac/install/tac_launch/lib/python3.10/site-packages/tac_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[1.061s] Copying ../../build/tac_launch/tac_launch.egg-info to /home/arshia/auv_tac/install/tac_launch/lib/python3.10/site-packages/tac_launch-0.0.0-py3.10.egg-info
+[1.062s] running install_scripts
+[1.078s] writing list of installed files to '/home/arshia/auv_tac/build/tac_launch/install.log'
+[1.106s] Invoked command in '/home/arshia/auv_tac/src/tac_launch' returned '0': PYTHONPATH=/home/arshia/auv_tac/build/tac_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/tac_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tac_launch build --build-base /home/arshia/auv_tac/build/tac_launch/build install --record /home/arshia/auv_tac/build/tac_launch/install.log --single-version-externally-managed install_data

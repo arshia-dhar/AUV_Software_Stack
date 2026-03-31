@@ -1,0 +1,9 @@
+source;share/aruco_scan/hook/cmake_prefix_path.ps1
+source;share/aruco_scan/hook/cmake_prefix_path.dsv
+source;share/aruco_scan/hook/cmake_prefix_path.sh
+source;share/aruco_scan/hook/pythonpath.ps1
+source;share/aruco_scan/hook/pythonpath.dsv
+source;share/aruco_scan/hook/pythonpath.sh
+source;share/aruco_scan/hook/ament_prefix_path.ps1
+source;share/aruco_scan/hook/ament_prefix_path.dsv
+source;share/aruco_scan/hook/ament_prefix_path.sh

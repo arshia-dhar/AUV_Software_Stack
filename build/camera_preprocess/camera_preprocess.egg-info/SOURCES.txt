@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/camera_preprocess/camera_preprocess.egg-info/PKG-INFO
+../../build/camera_preprocess/camera_preprocess.egg-info/SOURCES.txt
+../../build/camera_preprocess/camera_preprocess.egg-info/dependency_links.txt
+../../build/camera_preprocess/camera_preprocess.egg-info/entry_points.txt
+../../build/camera_preprocess/camera_preprocess.egg-info/requires.txt
+../../build/camera_preprocess/camera_preprocess.egg-info/top_level.txt
+../../build/camera_preprocess/camera_preprocess.egg-info/zip-safe
+camera_preprocess/__init__.py
+camera_preprocess/camera_preprocess.py
+resource/camera_preprocess
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,4 @@
+source;share/tac_launch/local_setup.bash
+source;share/tac_launch/local_setup.dsv
+source;share/tac_launch/local_setup.sh
+source;share/tac_launch/local_setup.zsh

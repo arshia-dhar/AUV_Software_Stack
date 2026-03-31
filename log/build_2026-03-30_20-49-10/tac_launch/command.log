@@ -1,0 +1,6 @@
+Invoking command in '/home/arshia/auv_tac/build/tac_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arshia/auv_tac/src/tac_launch -DCMAKE_INSTALL_PREFIX=/home/arshia/auv_tac/install/tac_launch
+Invoked command in '/home/arshia/auv_tac/build/tac_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arshia/auv_tac/src/tac_launch -DCMAKE_INSTALL_PREFIX=/home/arshia/auv_tac/install/tac_launch
+Invoking command in '/home/arshia/auv_tac/build/tac_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arshia/auv_tac/build/tac_launch -- -j12 -l12
+Invoked command in '/home/arshia/auv_tac/build/tac_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arshia/auv_tac/build/tac_launch -- -j12 -l12
+Invoking command in '/home/arshia/auv_tac/build/tac_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arshia/auv_tac/build/tac_launch
+Invoked command in '/home/arshia/auv_tac/build/tac_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arshia/auv_tac/build/tac_launch

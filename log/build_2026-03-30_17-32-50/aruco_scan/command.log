@@ -1,0 +1,6 @@
+Invoking command in '/home/arshia/auv_tac/build/aruco_scan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arshia/auv_tac/src/aruco_scan -DCMAKE_INSTALL_PREFIX=/home/arshia/auv_tac/install/aruco_scan
+Invoked command in '/home/arshia/auv_tac/build/aruco_scan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arshia/auv_tac/src/aruco_scan -DCMAKE_INSTALL_PREFIX=/home/arshia/auv_tac/install/aruco_scan
+Invoking command in '/home/arshia/auv_tac/build/aruco_scan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arshia/auv_tac/build/aruco_scan -- -j12 -l12
+Invoked command in '/home/arshia/auv_tac/build/aruco_scan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arshia/auv_tac/build/aruco_scan -- -j12 -l12
+Invoking command in '/home/arshia/auv_tac/build/aruco_scan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arshia/auv_tac/build/aruco_scan
+Invoked command in '/home/arshia/auv_tac/build/aruco_scan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arshia/auv_tac/build/aruco_scan

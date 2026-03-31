@@ -1,0 +1,9 @@
+/home/arshia/auv_tac/build/aruco_scan/CMakeFiles/uninstall.dir
+/home/arshia/auv_tac/build/aruco_scan/CMakeFiles/aruco_scan_uninstall.dir
+/home/arshia/auv_tac/build/aruco_scan/CMakeFiles/test.dir
+/home/arshia/auv_tac/build/aruco_scan/CMakeFiles/edit_cache.dir
+/home/arshia/auv_tac/build/aruco_scan/CMakeFiles/rebuild_cache.dir
+/home/arshia/auv_tac/build/aruco_scan/CMakeFiles/list_install_components.dir
+/home/arshia/auv_tac/build/aruco_scan/CMakeFiles/install.dir
+/home/arshia/auv_tac/build/aruco_scan/CMakeFiles/install/local.dir
+/home/arshia/auv_tac/build/aruco_scan/CMakeFiles/install/strip.dir

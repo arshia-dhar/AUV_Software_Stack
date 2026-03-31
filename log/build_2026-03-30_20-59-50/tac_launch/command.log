@@ -1,0 +1,4 @@
+Invoking command in '/home/arshia/auv_tac/build/tac_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arshia/auv_tac/install/camera_preprocess:/opt/ros/humble /usr/bin/cmake --build /home/arshia/auv_tac/build/tac_launch -- -j12 -l12
+Invoked command in '/home/arshia/auv_tac/build/tac_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arshia/auv_tac/install/camera_preprocess:/opt/ros/humble /usr/bin/cmake --build /home/arshia/auv_tac/build/tac_launch -- -j12 -l12
+Invoking command in '/home/arshia/auv_tac/build/tac_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arshia/auv_tac/install/camera_preprocess:/opt/ros/humble /usr/bin/cmake --install /home/arshia/auv_tac/build/tac_launch
+Invoked command in '/home/arshia/auv_tac/build/tac_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arshia/auv_tac/install/camera_preprocess:/opt/ros/humble /usr/bin/cmake --install /home/arshia/auv_tac/build/tac_launch

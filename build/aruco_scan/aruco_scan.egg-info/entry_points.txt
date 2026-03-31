@@ -1,0 +1,3 @@
+[console_scripts]
+aruco_scan = aruco_scan.aruco_scan:main
+

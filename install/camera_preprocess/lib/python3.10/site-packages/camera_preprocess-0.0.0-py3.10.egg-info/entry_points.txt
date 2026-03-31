@@ -1,0 +1,3 @@
+[console_scripts]
+camera_preprocess = camera_preprocess.camera_preprocess:main
+

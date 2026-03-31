@@ -1,0 +1,15 @@
+/home/arshia/auv_tac/install/aruco_scan/share/ament_index/resource_index/package_run_dependencies/aruco_scan
+/home/arshia/auv_tac/install/aruco_scan/share/ament_index/resource_index/parent_prefix_path/aruco_scan
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/environment/ament_prefix_path.sh
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/environment/ament_prefix_path.dsv
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/environment/path.sh
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/environment/path.dsv
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/local_setup.bash
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/local_setup.sh
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/local_setup.zsh
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/local_setup.dsv
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/package.dsv
+/home/arshia/auv_tac/install/aruco_scan/share/ament_index/resource_index/packages/aruco_scan
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/cmake/aruco_scanConfig.cmake
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/cmake/aruco_scanConfig-version.cmake
+/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/package.xml
