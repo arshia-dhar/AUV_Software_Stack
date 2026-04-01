@@ -1,0 +1,236 @@
+[0.230s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.230s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x731cd90698d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x731cd9068fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x731cd9068fd0>>)
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.625s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.625s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arshia/auv_tac'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_scan) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_scan) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_scan) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_scan) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_scan) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_scan) by extensions ['colcon_meta']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_scan) by extension 'colcon_meta'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_scan) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_scan) by extension 'ros'
+[0.659s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_scan' with type 'ros.ament_python' and name 'aruco_scan'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_preprocess) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_preprocess) by extension 'ignore'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_preprocess) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_preprocess) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_preprocess) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_preprocess) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_preprocess) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_preprocess) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_preprocess) by extension 'ros'
+[0.661s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_preprocess' with type 'ros.ament_python' and name 'camera_preprocess'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/tac_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/tac_launch) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/tac_launch) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/tac_launch) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/tac_launch) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/tac_launch) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/tac_launch) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/tac_launch) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/tac_launch) by extension 'ros'
+[0.664s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tac_launch' with type 'ros.ament_python' and name 'tac_launch'
+[0.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.726s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/arshia/auv_tac/install
+[0.727s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arshia/install
+[0.731s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 443 installed packages in /opt/ros/humble
+[0.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'aruco_scan' build argument 'cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'aruco_scan' build argument 'cmake_target' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'aruco_scan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'aruco_scan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'aruco_scan' build argument 'cmake_clean_first' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'aruco_scan' build argument 'cmake_force_configure' from command line to 'False'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'aruco_scan' build argument 'ament_cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'aruco_scan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'aruco_scan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.854s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_scan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arshia/auv_tac/build/aruco_scan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arshia/auv_tac/install/aruco_scan', 'merge_install': False, 'path': '/home/arshia/auv_tac/src/aruco_scan', 'symlink_install': False, 'test_result_base': None}
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'camera_preprocess' build argument 'cmake_args' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'camera_preprocess' build argument 'cmake_target' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'camera_preprocess' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_preprocess' build argument 'cmake_clean_cache' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_preprocess' build argument 'cmake_clean_first' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_preprocess' build argument 'cmake_force_configure' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_preprocess' build argument 'ament_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_preprocess' build argument 'catkin_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'camera_preprocess' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.855s] DEBUG:colcon.colcon_core.verb:Building package 'camera_preprocess' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arshia/auv_tac/build/camera_preprocess', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arshia/auv_tac/install/camera_preprocess', 'merge_install': False, 'path': '/home/arshia/auv_tac/src/camera_preprocess', 'symlink_install': False, 'test_result_base': None}
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'tac_launch' build argument 'cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'tac_launch' build argument 'cmake_target' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'tac_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'tac_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'tac_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'tac_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'tac_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'tac_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'tac_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.856s] DEBUG:colcon.colcon_core.verb:Building package 'tac_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arshia/auv_tac/build/tac_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arshia/auv_tac/install/tac_launch', 'merge_install': False, 'path': '/home/arshia/auv_tac/src/tac_launch', 'symlink_install': False, 'test_result_base': None}
+[0.856s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.858s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.858s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arshia/auv_tac/src/aruco_scan' with build type 'ament_python'
+[0.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_scan', 'ament_prefix_path')
+[0.863s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/hook/ament_prefix_path.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/hook/ament_prefix_path.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/hook/ament_prefix_path.sh'
+[0.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.877s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arshia/auv_tac/src/camera_preprocess' with build type 'ament_python'
+[0.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_preprocess', 'ament_prefix_path')
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/hook/ament_prefix_path.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/hook/ament_prefix_path.dsv'
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/hook/ament_prefix_path.sh'
+[0.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.886s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arshia/auv_tac/src/tac_launch' with build type 'ament_python'
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('tac_launch', 'ament_prefix_path')
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/hook/ament_prefix_path.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/hook/ament_prefix_path.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/hook/ament_prefix_path.sh'
+[0.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.459s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arshia/auv_tac/src/aruco_scan'
+[1.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.049s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arshia/auv_tac/src/camera_preprocess'
+[2.050s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.639s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arshia/auv_tac/src/tac_launch'
+[2.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arshia/auv_tac/src/aruco_scan': PYTHONPATH=/home/arshia/auv_tac/build/aruco_scan/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/aruco_scan/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_scan build --build-base /home/arshia/auv_tac/build/aruco_scan/build install --record /home/arshia/auv_tac/build/aruco_scan/install.log --single-version-externally-managed install_data
+[3.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arshia/auv_tac/src/camera_preprocess': PYTHONPATH=/home/arshia/auv_tac/build/camera_preprocess/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/camera_preprocess/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_preprocess build --build-base /home/arshia/auv_tac/build/camera_preprocess/build install --record /home/arshia/auv_tac/build/camera_preprocess/install.log --single-version-externally-managed install_data
+[3.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arshia/auv_tac/src/tac_launch': PYTHONPATH=/home/arshia/auv_tac/build/tac_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/tac_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tac_launch build --build-base /home/arshia/auv_tac/build/tac_launch/build install --record /home/arshia/auv_tac/build/tac_launch/install.log --single-version-externally-managed install_data
+[4.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arshia/auv_tac/src/aruco_scan' returned '0': PYTHONPATH=/home/arshia/auv_tac/build/aruco_scan/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/aruco_scan/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_scan build --build-base /home/arshia/auv_tac/build/aruco_scan/build install --record /home/arshia/auv_tac/build/aruco_scan/install.log --single-version-externally-managed install_data
+[4.121s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/aruco_scan' for CMake module files
+[4.122s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/aruco_scan' for CMake config files
+[4.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_scan', 'cmake_prefix_path')
+[4.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/hook/cmake_prefix_path.ps1'
+[4.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/hook/cmake_prefix_path.dsv'
+[4.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/hook/cmake_prefix_path.sh'
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/aruco_scan/lib'
+[4.127s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/aruco_scan/bin'
+[4.127s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/aruco_scan/lib/pkgconfig/aruco_scan.pc'
+[4.127s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/aruco_scan/lib/python3.10/site-packages'
+[4.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_scan', 'pythonpath')
+[4.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/hook/pythonpath.ps1'
+[4.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/hook/pythonpath.dsv'
+[4.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/hook/pythonpath.sh'
+[4.130s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/aruco_scan/bin'
+[4.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_scan)
+[4.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/package.ps1'
+[4.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/package.dsv'
+[4.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/package.sh'
+[4.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/package.bash'
+[4.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/aruco_scan/share/aruco_scan/package.zsh'
+[4.135s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arshia/auv_tac/install/aruco_scan/share/colcon-core/packages/aruco_scan)
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/camera_preprocess' for CMake module files
+[4.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arshia/auv_tac/src/camera_preprocess' returned '0': PYTHONPATH=/home/arshia/auv_tac/build/camera_preprocess/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/camera_preprocess/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_preprocess build --build-base /home/arshia/auv_tac/build/camera_preprocess/build install --record /home/arshia/auv_tac/build/camera_preprocess/install.log --single-version-externally-managed install_data
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/camera_preprocess' for CMake config files
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/camera_preprocess/lib'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/camera_preprocess/bin'
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/camera_preprocess/lib/pkgconfig/camera_preprocess.pc'
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/camera_preprocess/lib/python3.10/site-packages'
+[4.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_preprocess', 'pythonpath')
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/hook/pythonpath.ps1'
+[4.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/hook/pythonpath.dsv'
+[4.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/hook/pythonpath.sh'
+[4.142s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/camera_preprocess/bin'
+[4.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_preprocess)
+[4.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/package.ps1'
+[4.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/package.dsv'
+[4.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/package.sh'
+[4.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/package.bash'
+[4.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/camera_preprocess/share/camera_preprocess/package.zsh'
+[4.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arshia/auv_tac/install/camera_preprocess/share/colcon-core/packages/camera_preprocess)
+[4.146s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/tac_launch' for CMake module files
+[4.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arshia/auv_tac/src/tac_launch' returned '0': PYTHONPATH=/home/arshia/auv_tac/build/tac_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/tac_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tac_launch build --build-base /home/arshia/auv_tac/build/tac_launch/build install --record /home/arshia/auv_tac/build/tac_launch/install.log --single-version-externally-managed install_data
+[4.147s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/tac_launch' for CMake config files
+[4.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('tac_launch', 'cmake_prefix_path')
+[4.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/hook/cmake_prefix_path.ps1'
+[4.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/hook/cmake_prefix_path.dsv'
+[4.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/hook/cmake_prefix_path.sh'
+[4.149s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/tac_launch/lib'
+[4.149s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/tac_launch/bin'
+[4.149s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/tac_launch/lib/pkgconfig/tac_launch.pc'
+[4.150s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/tac_launch/lib/python3.10/site-packages'
+[4.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('tac_launch', 'pythonpath')
+[4.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/hook/pythonpath.ps1'
+[4.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/hook/pythonpath.dsv'
+[4.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/hook/pythonpath.sh'
+[4.152s] Level 1:colcon.colcon_core.environment:checking '/home/arshia/auv_tac/install/tac_launch/bin'
+[4.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tac_launch)
+[4.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/package.ps1'
+[4.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/package.dsv'
+[4.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/package.sh'
+[4.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/package.bash'
+[4.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/arshia/auv_tac/install/tac_launch/share/tac_launch/package.zsh'
+[4.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arshia/auv_tac/install/tac_launch/share/colcon-core/packages/tac_launch)
+[4.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.156s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.162s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.162s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.162s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.175s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arshia/auv_tac/install/local_setup.ps1'
+[4.177s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arshia/auv_tac/install/_local_setup_util_ps1.py'
+[4.178s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arshia/auv_tac/install/setup.ps1'
+[4.180s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arshia/auv_tac/install/local_setup.sh'
+[4.180s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arshia/auv_tac/install/_local_setup_util_sh.py'
+[4.181s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arshia/auv_tac/install/setup.sh'
+[4.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arshia/auv_tac/install/local_setup.bash'
+[4.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arshia/auv_tac/install/setup.bash'
+[4.184s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arshia/auv_tac/install/local_setup.zsh'
+[4.185s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arshia/auv_tac/install/setup.zsh'

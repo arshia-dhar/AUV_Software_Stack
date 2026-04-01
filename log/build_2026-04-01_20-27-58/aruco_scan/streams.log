@@ -1,0 +1,21 @@
+[2.590s] Invoking command in '/home/arshia/auv_tac/src/aruco_scan': PYTHONPATH=/home/arshia/auv_tac/build/aruco_scan/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/aruco_scan/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_scan build --build-base /home/arshia/auv_tac/build/aruco_scan/build install --record /home/arshia/auv_tac/build/aruco_scan/install.log --single-version-externally-managed install_data
+[3.145s] running egg_info
+[3.147s] writing ../../build/aruco_scan/aruco_scan.egg-info/PKG-INFO
+[3.147s] writing dependency_links to ../../build/aruco_scan/aruco_scan.egg-info/dependency_links.txt
+[3.148s] writing entry points to ../../build/aruco_scan/aruco_scan.egg-info/entry_points.txt
+[3.148s] writing requirements to ../../build/aruco_scan/aruco_scan.egg-info/requires.txt
+[3.148s] writing top-level names to ../../build/aruco_scan/aruco_scan.egg-info/top_level.txt
+[3.152s] reading manifest file '../../build/aruco_scan/aruco_scan.egg-info/SOURCES.txt'
+[3.154s] writing manifest file '../../build/aruco_scan/aruco_scan.egg-info/SOURCES.txt'
+[3.154s] running build
+[3.154s] running build_py
+[3.154s] running install
+[3.155s] running install_lib
+[3.157s] running install_data
+[3.158s] running install_egg_info
+[3.161s] removing '/home/arshia/auv_tac/install/aruco_scan/lib/python3.10/site-packages/aruco_scan-0.0.0-py3.10.egg-info' (and everything under it)
+[3.162s] Copying ../../build/aruco_scan/aruco_scan.egg-info to /home/arshia/auv_tac/install/aruco_scan/lib/python3.10/site-packages/aruco_scan-0.0.0-py3.10.egg-info
+[3.164s] running install_scripts
+[3.206s] Installing aruco_scan script to /home/arshia/auv_tac/install/aruco_scan/lib/aruco_scan
+[3.207s] writing list of installed files to '/home/arshia/auv_tac/build/aruco_scan/install.log'
+[3.257s] Invoked command in '/home/arshia/auv_tac/src/aruco_scan' returned '0': PYTHONPATH=/home/arshia/auv_tac/build/aruco_scan/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/aruco_scan/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_scan build --build-base /home/arshia/auv_tac/build/aruco_scan/build install --record /home/arshia/auv_tac/build/aruco_scan/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[2.577s] Invoking command in '/home/arshia/auv_tac/src/camera_preprocess': PYTHONPATH=/home/arshia/auv_tac/build/camera_preprocess/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/camera_preprocess/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_preprocess build --build-base /home/arshia/auv_tac/build/camera_preprocess/build install --record /home/arshia/auv_tac/build/camera_preprocess/install.log --single-version-externally-managed install_data
+[3.133s] running egg_info
+[3.134s] writing ../../build/camera_preprocess/camera_preprocess.egg-info/PKG-INFO
+[3.134s] writing dependency_links to ../../build/camera_preprocess/camera_preprocess.egg-info/dependency_links.txt
+[3.135s] writing entry points to ../../build/camera_preprocess/camera_preprocess.egg-info/entry_points.txt
+[3.135s] writing requirements to ../../build/camera_preprocess/camera_preprocess.egg-info/requires.txt
+[3.135s] writing top-level names to ../../build/camera_preprocess/camera_preprocess.egg-info/top_level.txt
+[3.137s] reading manifest file '../../build/camera_preprocess/camera_preprocess.egg-info/SOURCES.txt'
+[3.138s] writing manifest file '../../build/camera_preprocess/camera_preprocess.egg-info/SOURCES.txt'
+[3.138s] running build
+[3.138s] running build_py
+[3.139s] running install
+[3.139s] running install_lib
+[3.140s] running install_data
+[3.140s] running install_egg_info
+[3.142s] removing '/home/arshia/auv_tac/install/camera_preprocess/lib/python3.10/site-packages/camera_preprocess-0.0.0-py3.10.egg-info' (and everything under it)
+[3.143s] Copying ../../build/camera_preprocess/camera_preprocess.egg-info to /home/arshia/auv_tac/install/camera_preprocess/lib/python3.10/site-packages/camera_preprocess-0.0.0-py3.10.egg-info
+[3.144s] running install_scripts
+[3.182s] Installing camera_preprocess script to /home/arshia/auv_tac/install/camera_preprocess/lib/camera_preprocess
+[3.183s] writing list of installed files to '/home/arshia/auv_tac/build/camera_preprocess/install.log'
+[3.260s] Invoked command in '/home/arshia/auv_tac/src/camera_preprocess' returned '0': PYTHONPATH=/home/arshia/auv_tac/build/camera_preprocess/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arshia/auv_tac/install/camera_preprocess/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_preprocess build --build-base /home/arshia/auv_tac/build/camera_preprocess/build install --record /home/arshia/auv_tac/build/camera_preprocess/install.log --single-version-externally-managed install_data

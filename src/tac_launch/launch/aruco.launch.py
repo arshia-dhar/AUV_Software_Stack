@@ -14,7 +14,8 @@ def generate_launch_description():
             parameters=[{
                 'video_device': '/dev/video0',
                 'image_size': [640, 480],
-                'pixel_format': 'MJPG'
+                'pixel_format': 'YUYV',
+                'frame_rate': 15
             }],
             remappings=[
                 ('/image_raw', '/camera/front/image_raw')
@@ -29,7 +30,8 @@ def generate_launch_description():
             parameters=[{
                 'video_device': '/dev/video2',
                 'image_size': [640, 480],
-                'pixel_format': 'MJPG'
+                'pixel_format': 'MJPG',
+                'frame_rate': 15 
             }],
             remappings=[
                 ('/image_raw', '/camera/down/image_raw')
